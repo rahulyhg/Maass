@@ -1,0 +1,739 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201302 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2593                
+POS_VISITOR 10373               
+POS_DAY 18599               
+POS_DOMAIN 3439                
+POS_LOGIN 3822                
+POS_ROBOT 3977                
+POS_WORMS 4625                
+POS_EMAILSENDER 4756                
+POS_EMAILRECEIVER 4899                
+POS_SESSION 19189               
+POS_SIDER 19401               
+POS_FILETYPES 5034                
+POS_OS 5259                
+POS_BROWSER 5424                
+POS_SCREENSIZE 5913                
+POS_UNKNOWNREFERER 5987                
+POS_UNKNOWNREFERERBROWSER 6594                
+POS_ORIGIN 6887                
+POS_SEREFERRALS 7031                
+POS_PAGEREFS 7188                
+POS_SEARCHWORDS 7703                
+POS_KEYWORDS 7934                
+POS_MISC 2256                
+POS_ERRORS 8074                
+POS_CLUSTER 3678                
+POS_SIDER_404 8204                
+POS_PLUGIN_geoip_city_maxmind 9193                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130301000704 35 6349 7714271204181
+FirstTime 20130209030535
+LastTime 20130228235412
+LastUpdate 20130301050943 35 0 34 0 0
+TotalVisits 230                 
+TotalUnique 196                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 205                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 12 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 64 280 3497267 150 166 3888888
+1 157 435 7170450 37 56 415832
+2 95 249 3791875 34 82 1199494
+3 230 674 5414537 34 59 232947
+4 17 88 926615 16 22 122262
+5 37 165 2097985 22 31 181194
+6 72 197 2554788 29 46 467876
+7 68 255 4074104 17 44 209420
+8 115 380 5052801 26 60 217861
+9 159 403 6820338 16 71 61863
+10 205 536 9727467 19 82 97647
+11 144 437 3536344 36 105 818738
+12 91 232 2414138 33 42 157856
+13 15 51 392868 8 13 142761
+14 18 64 548605 43 44 796739
+15 4 18 545698 37 39 717596
+16 4 4 131416 7 21 453060
+17 2 2 47860 11 12 153050
+18 21 21 528478 7 26 494028
+19 16 16 374254 11 30 298767
+20 18 32 485418 36 38 679198
+21 69 126 2779449 58 77 1143890
+22 103 399 4030975 23 44 217384
+23 132 487 4900078 61 86 843310
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+in 1620 5001 60695063
+us 125 141 4061855
+unknown 84 381 6172675
+by 14 14 460516
+it 3 3 98664
+nl 3 3 82827
+de 3 3 98596
+cn 1 1 32876
+ca 1 2 75028
+cz 1 1 32832
+gb 1 1 32876
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+googlebot 273 6444105 20130228010445 0
+msnbot 82 1790557 20130212213346 0
+no_user_agent 47 953584 20130228003935 0
+ia_archiver 33 788806 20130226052409 0
+bot[+:,\.\;\/\\-] 22 800425 20130225015551 0
+[+:,\.\;\/\\-]bot 17 512724 20130225112409 0
+crawl 17 731192 20130225024428 0
+msnbot\-media 7 31999 20130224122736 0
+legs 6 197364 20130228024652 0
+java 4 172 20130220181318 0
+surveybot 1 32876 20130221130939 0
+webfilter 2 65752 20130225050205 0
+slurp 2 65770 20130227123102 0
+w3c_validator 1 32876 20130226143241 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 211 2743338 0 0
+png 207 492208 0 0
+htm 29 1476980 0 0
+php 1446 27657940 0 0
+html 381 12134981 0 0
+xml 1 3117 0 0
+jpg 1149 24838627 0 0
+js 74 823855 0 0
+gif 2053 1672762 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxmandr 1
+winlong 316
+winxp 2577
+win2000 3
+winnt 2241
+linuxubuntu 7
+linux 118
+winme 2
+macosx 111
+winunknown 1
+Unknown 174
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 34
+msie6.0 25
+firefox4.0.1 4
+firefox3.6 1
+ibrowse 30
+firefox10.0 2
+epiphany 1
+firefox18.0 302
+curl 2
+msie8.0 329
+msie7.0 132
+firefox16.0 149
+firefox9.0.1 1
+msie10.6 1
+msie9.0 7
+Unknown 139
+firefox11.0 2
+netscape 2
+galeon 1
+opera 5
+firefox3.0 1
+firefox21.0 312
+firefox3.6.16 7
+msie5.5 7
+firefox12.0 1
+firefox3.0.3 1
+mozilla 5
+netscape5.0 2
+firefox14.0.1 10
+firefox22.0 546
+msie10.0 37
+firefox6.0 1
+firefox3.0.10 1
+safari 3484
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla 20130227012421
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20130225080911
+facebookplatform/1.0_(_http://developers.facebook.com) 20130225080912
+Mozilla/5.0_(compatible;_evc/1.0) 20130225004220
+Dorado_WAP-Browser/1.0.0/powerplay/2 20130216224452
+Mozilla/5.0_(Series40;_Nokia311/03.81;_Profile/MIDP-2.1_Configuration/CLDC-1.1)_Gecko/20100401_S40OviBrowser/2.0.2.68.13.1 20130214015024
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20130220152300
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20130225080911
+facebookplatform/1.0_(_http://developers.facebook.com) 20130225080912
+Dorado_WAP-Browser/1.0.0/powerplay/2 20130216224452
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 361 479
+From1 0 0
+From2 24 24
+From3 21 32
+From4 1450 5016
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 24 24
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://hufeloqi.carpettediem.fr/info/maassmatrimony.com 13 13
+http://us-mg6.mail.yahoo.com/neo/launch 3 3
+http://www.delta-search.com 2 2
+http://domainsigma.com/whois/maassmatrimony.com 1 1
+http://airtelforum.com/main 1 1
+http://zuqewik.simik.net/info/maassmatrimony.com 1 1
+http://in.mc1902.mail.yahoo.com/mc/welcome 0 8
+http://in-mg61.mail.yahoo.com/neo/launch 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+www.maassmatrimony.com 3
+maass+matrimony 2
+maassmatrimonial 1
+maassmatrimony 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+www.maassmatrimony.com 3
+matrimony 2
+maass 2
+maassmatrimonial 1
+maassmatrimony 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 202 1255267
+206 20 296748
+301 45 11160
+404 515 284
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 19
+/search.php 4 -
+/robots.txt 96 -
+/reddot.gif 19 http://maassmatrimony.com/membership.php
+/icons/folder.gif 1 http://maassmatrimony.com/
+/icons/blank.gif 1 http://maassmatrimony.com/
+/icons/unknown.gif 1 http://maassmatrimony.com/
+/icons/text.gif 1 http://maassmatrimony.com/
+/icons/image2.gif 1 http://maassmatrimony.com/
+/pay_files/trans(1).gif 60 http://maassmatrimony.com/paymentoptions.php
+/js/builder.js 3 http://www.maassmatrimony.com/more_recent_profiles.php
+/images/dot.gif 1 http://maassmatrimony.com/mymembership.php
+/pics/pics/Redarrowbullent.gif 250 http://maassmatrimony.com/membership.php
+/Regularsearch.php 4 -
+/forgotpassword.aspx 2 -
+/jpg%20files/Top_banner.JPG 1 http://maassmatrimony.com/
+/icons/back.gif 1 http://maassmatrimony.com/
+/pics/blank(1).gif 65 http://maassmatrimony.com/registration1.php
+/css/lightbox.css 3 http://www.maassmatrimony.com/more_recent_profiles.php
+/* 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 36
+in_madras_25 0 4037 0 0
+unknown 0 419 0 0
+in_new%20delhi_07 0 270 0 0
+in_tiruppur_25 0 269 0 0
+in_bombay_16 0 255 0 0
+in_dharwad_19 0 136 0 0
+us_boise_id 0 44 0 0
+in_jalandhar_23 0 34 0 0
+us_mountain%20view_ca 0 16 0 0
+us_sterling_va 0 10 0 0
+us_san%20diego_ca 0 1 0 0
+us_cottonwood_id 0 1 0 0
+ca_mississauga_on 0 2 0 0
+us_laclede_id 0 1 0 0
+us_boston_ma 0 2 0 0
+cz_prague_52 0 1 0 0
+us_san%20bruno_ca 0 4 0 0
+us_nordman_id 0 2 0 0
+us_ocean%20city_nj 0 1 0 0
+us_reston_va 0 2 0 0
+gb_london_h9 0 1 0 0
+us_dallas_tx 0 1 0 0
+us_austin_tx 0 4 0 0
+us_lakewood_oh 0 1 0 0
+de_gunzenhausen_02 0 1 0 0
+us_hurst_tx 0 7 0 0
+us_moscow_id 0 1 0 0
+us_hailey_id 0 6 0 0
+us_lewiston_id 0 5 0 0
+us_payette_id 0 5 0 0
+it_soci_05 0 3 0 0
+de_idstein_05 0 1 0 0
+nl_amsterdam_07 0 3 0 0
+us_burley_id 0 1 0 0
+us_garden%20valley_id 0 3 0 0
+us_orofino_id 0 1 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 205
+122.174.47.224 85 119 1203934 20130213034000
+59.92.90.105 71 172 1963750 20130211070138
+122.164.83.238 70 155 1806853 20130214125401
+59.92.42.96 68 148 2720184 20130226231533
+59.92.82.104 66 91 1509357 20130211102945
+59.92.95.215 55 91 1989474 20130226011439
+59.92.37.73 53 172 2050666 20130209114610
+122.164.80.94 48 114 1459533 20130217090623
+122.164.44.191 47 117 1307411 20130222021059
+122.164.145.102 46 103 1655646 20130225104643
+122.164.34.182 22 75 261151 20130214232758
+223.187.117.56 6 21 654895 20130209122941
+69.5.239.173 1 1 16640 20130220191314
+69.58.178.56 10 10 250728 20130215194030
+66.54.75.246 0 2 67138 
+206.80.115.115 1 1 17534 20130220201523
+122.164.21.189 6 47 498636 20130218062334
+122.164.159.39 39 60 651204 20130212040243
+59.92.33.248 37 141 825694 20130223143435
+5.135.125.182 4 4 98688 20130219063121
+59.92.93.99 6 7 71712 20130226124649
+115.252.79.170 34 218 1387882 20130209033934
+192.95.22.19 1 1 32888 20130211033154
+66.54.75.181 2 4 67381 20130214015024
+59.92.47.186 20 55 227727 20130210234035
+122.164.173.196 6 22 531698 20130223235727
+59.92.85.180 5 32 756865 20130217232238
+66.54.75.225 0 3 7508 
+122.174.45.238 2 3 65776 20130213023720
+27.59.112.169 2 16 154058 20130218051410
+209.19.189.228 1 1 33905 20130220230318
+209.19.183.173 2 2 33399 20130220185311
+27.61.126.252 5 30 198043 20130217231817
+173.252.100.119 1 1 28242 20130209114402
+206.207.116.62 2 2 168260 20130220232158
+69.64.51.97 1 1 32876 20130219074815
+206.80.115.124 2 2 43166 20130220203814
+59.92.38.67 25 80 1025920 20130226010341
+59.92.80.196 3 7 68676 20130225001426
+178.33.178.14 4 4 83402 20130228041416
+209.19.185.92 1 1 16640 20130220201729
+122.164.42.76 30 83 973491 20130225225438
+106.213.80.142 19 70 596159 20130223121251
+206.80.114.179 3 3 87287 20130220231302
+59.92.79.196 5 5 275747 20130220060040
+59.92.93.154 9 61 342576 20130213000953
+59.92.58.185 10 12 163964 20130214115151
+206.80.118.124 1 1 14964 20130220184554
+209.19.184.77 2 2 72191 20130220230539
+122.164.162.31 9 20 325764 20130211120602
+199.217.115.189 2 2 65788 20130227074516
+206.80.112.115 2 2 72001 20130220225913
+212.95.58.204 14 14 460516 20130228235412
+223.235.188.171 12 89 1416775 20130217074538
+95.211.174.161 2 2 65788 20130228234516
+27.61.98.210 3 27 161782 20130225083702
+209.19.175.115 1 1 17534 20130220224814
+209.19.175.126 2 2 32570 20130220232814
+122.178.19.253 35 115 1629298 20130216095107
+122.164.129.1 2 16 65776 20130213114241
+66.54.75.188 1 2 26662 20130214014933
+122.174.49.252 2 16 483561 20130222075425
+101.63.231.160 1 15 183834 20130226023247
+66.54.75.223 0 4 110556 
+122.164.39.105 7 72 157059 20130213001608
+122.164.106.48 6 22 77625 20130214033323
+59.92.64.47 2 16 65776 20130210035611
+59.92.87.44 14 84 420034 20130211054015
+122.164.30.59 2 10 317746 20130222231129
+207.70.25.62 2 2 71606 20130220225622
+207.70.60.22 2 2 35659 20130220225549
+66.54.75.182 0 1 2857 
+59.92.50.183 8 63 324743 20130210224208
+209.19.170.60 1 1 32832 20130220204717
+209.19.178.77 2 2 29859 20130220233807
+207.70.25.60 1 1 32832 20130220160846
+209.19.152.76 1 1 28194 20130220190016
+66.54.75.248 0 2 36128 
+223.231.149.68 8 32 641908 20130225054008
+173.252.101.118 1 1 32876 20130225080911
+122.178.2.152 18 81 1515569 20130227103539
+198.27.74.13 1 1 32876 20130219061428
+62.149.133.73 3 3 98664 20130226235040
+59.92.84.37 9 25 146376 20130215031446
+122.164.246.118 7 30 576026 20130220061949
+209.19.191.228 2 2 89614 20130220231013
+173.252.101.4 0 1 37306 
+204.101.161.159 1 2 75028 20130225073312
+212.67.88.88 1 1 32832 20130226211117
+207.70.9.108 1 1 14966 20130220182127
+207.70.9.99 1 1 49262 20130220231830
+206.207.117.174 3 3 79072 20130220233544
+66.54.75.244 1 3 19775 20130214014918
+122.174.45.178 10 53 650340 20130222120938
+207.70.3.142 1 1 46190 20130220231647
+209.19.183.218 2 2 36089 20130220185851
+88.198.227.103 1 1 32832 20130226111931
+59.92.86.37 2 4 65776 20130213071732
+184.73.21.14 1 1 32832 20130226134538
+59.92.55.30 14 14 72076 20130214125709
+208.90.57.196 4 4 95582 20130225074710
+59.92.7.17 16 45 307707 20130223113151
+204.68.97.132 1 1 32888 20130210100542
+122.174.17.194 26 75 1225064 20130220094806
+115.242.217.219 9 36 632508 20130224091547
+37.200.65.208 1 1 32876 20130226043200
+110.90.86.234 1 1 32876 20130217184205
+209.19.176.77 2 2 79022 20130220205011
+122.174.5.61 7 30 583052 20130221014450
+65.55.215.251 2 4 132081 20130216131456
+69.5.239.228 1 1 18998 20130220225614
+122.164.51.24 11 41 236487 20130225085430
+38.99.62.89 2 2 65752 20130225004220
+59.92.90.220 4 4 25560 20130214124644
+122.164.67.114 2 16 479892 20130225004144
+122.174.44.229 7 31 629338 20130213102623
+209.19.189.218 2 2 29810 20130220183812
+122.164.135.136 2 2 2980 20130217092305
+209.19.191.173 1 1 58749 20130220181249
+122.174.30.153 4 4 22018 20130212033628
+122.164.162.148 2 16 483561 20130223103936
+122.174.42.56 5 5 164440 20130213025503
+59.92.79.197 13 30 226410 20130223111741
+59.92.41.13 8 9 203227 20130215120709
+209.19.185.228 1 1 15801 20130220234333
+66.54.75.224 0 1 1656 
+209.19.181.228 1 1 14891 20130220225621
+108.61.42.219 6 6 131576 20130227012422
+209.19.177.173 1 1 26211 20130220182911
+122.174.21.170 4 5 40421 20130212033811
+122.164.162.4 5 28 579612 20130215020038
+209.19.186.77 1 1 13487 20130220210214
+59.92.59.36 6 22 137400 20130214002200
+125.18.235.210 20 136 755994 20130216224436
+223.235.111.46 2 2 16358 20130217233402
+122.164.157.230 3 28 76075 20130223041414
+216.139.245.172 2 2 32844 20130212205907
+115.242.136.2 1 1 17382 20130226071813
+209.19.175.124 1 1 17091 20130220180312
+122.164.167.1 22 89 336135 20130212124857
+117.216.47.190 33 74 1269506 20130224022453
+59.92.49.138 2 16 65776 20130212223701
+118.95.103.159 21 125 2693283 20130226024135
+122.164.137.146 0 4 2589 
+206.207.116.57 1 1 62700 20130220225100
+117.197.184.115 9 34 664225 20130222002450
+199.30.228.128 1 1 18459 20130211045938
+122.164.9.199 26 85 969316 20130224085859
+209.19.177.218 1 1 14966 20130220183030
+199.115.113.98 7 7 230024 20130225185524
+66.54.75.221 1 4 103025 20130214014743
+122.164.20.207 2 20 261010 20130216042705
+59.92.38.42 5 30 206417 20130227032730
+95.211.124.213 1 1 17039 20130227052749
+38.100.21.118 2 2 65776 20130209185808
+206.183.1.74 1 1 32876 20130220152300
+66.54.75.177 1 2 82419 20130214014744
+129.10.115.240 2 2 65752 20130225143947
+122.164.123.193 37 119 1630352 20130226080450
+209.19.189.173 2 2 30832 20130220211856
+122.164.21.147 35 105 1293519 20130223021226
+103.246.38.196 1 1 32888 20130213102059
+59.92.84.171 41 163 1190927 20130216001438
+209.19.187.173 1 1 14193 20130220202730
+122.174.9.70 11 38 698545 20130221105714
+209.19.138.109 1 1 15801 20130220184534
+209.19.179.173 2 2 33849 20130220213504
+59.92.48.234 9 36 520234 20130220001240
+204.155.149.26 7 7 230222 20130228055554
+117.193.85.228 16 48 839107 20130214100731
+122.174.52.98 38 137 1458879 20130212033017
+74.125.186.95 1 3 89291 20130215001638
+209.19.170.51 1 1 153293 20130220232526
+209.19.152.67 1 1 16315 20130220211633
+216.139.245.73 2 2 32844 20130211141055
+122.164.146.234 8 43 1029956 20130219101229
+69.5.238.77 1 1 18609 20130220234504
+89.145.108.206 1 1 32876 20130223080404
+122.174.42.160 1 11 26259 20130212031157
+223.236.138.132 2 16 596645 20130210095239
+122.174.45.83 8 40 668859 20130221224747
+59.92.40.9 5 22 147392 20130209232622
+78.47.47.188 1 1 32888 20130214225902
+122.164.31.177 3 27 92035 20130215032427
+206.80.114.189 2 2 73713 20130220191311
+122.174.44.155 27 81 1294713 20130218103915
+209.19.138.99 2 2 32017 20130220203959
+173.193.205.119 1 1 32876 20130226072646
+176.9.78.7 2 16 479928 20130227152956
+85.25.108.64 1 1 32876 20130218160655
+207.70.60.17 1 1 33905 20130220224814
+122.164.210.82 1 3 27480 20130225010325
+74.125.187.217 1 13 391144 20130215001639
+122.164.31.29 2 16 65776 20130212024725
+66.54.75.245 0 2 69435 
+122.174.10.83 1 1 5803 20130212034255
+122.174.6.65 27 62 1391652 20130211093744
+69.5.239.218 2 2 59043 20130220181523
+122.164.10.32 16 29 550639 20130215121320
+122.164.49.81 5 32 753167 20130225083058
+122.174.34.99 28 67 897467 20130225014221
+122.164.130.150 7 7 41056 20130215122018
+59.92.57.1 4 42 84789 20130214124519
+209.19.185.173 1 1 26914 20130220201053
+178.63.56.210 1 1 32876 20130225215419
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20130209 101 436 4334853 7
+20130210 33 151 1247779 6
+20130211 191 433 5694748 8
+20130212 135 455 4623176 13
+20130213 112 262 2411246 9
+20130214 159 425 4095953 16
+20130215 98 297 3380056 11
+20130216 63 293 2966250 5
+20130217 75 270 3883430 7
+20130218 36 145 1980283 5
+20130219 19 81 1470124 5
+20130220 113 185 4386695 62
+20130221 26 108 1950456 3
+20130222 70 230 3423283 6
+20130223 135 481 4887329 11
+20130224 68 195 2871330 3
+20130225 155 445 6945308 21
+20130226 208 498 8101016 17
+20130227 36 138 2482105 9
+20130228 23 23 708388 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 29
+2mn-5mn 14
+15mn-30mn 21
+30s-2mn 16
+0s-30s 133
+30mn-1h 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 125
+/ 377 12070612 131 82
+/admin/index.php 144 2316989 2 4
+/admin/login.php 133 391034 13 21
+/index.php 121 3949076 3 14
+/photoprocess.php 99 851912 0 6
+/searchoption.php 68 1287971 3 10
+/simplesearch_results.php 52 1230095 4 0
+/registration1.php 50 2916731 3 6
+/photoprocess_small.php 48 226910 0 1
+/login.php 45 726042 2 2
+/viewprofileMAT263.htm 2 141957 0 0
+/admin/reports.php 4 30612 0 0
+/keyword_search.php 1 16124 0 0
+/aboutus.php 7 104384 1 4
+/admin/emailsto_mem_compose.php 4 27818 0 0
+/logout.php 9 576 1 0
+/admin/active_reports.php 40 442998 0 1
+/admin/approve_photo1_submit_bulk.php 2 13006 0 0
+/admin/logout.php 35 1960 3 0
+/help.php 12 189942 2 3
+/admin/viewphoto.php 1 2923 0 0
+/addhoros.php 1 29533 0 0
+/edit_hob.php 1 93 0 0
+/express_int.php 2 194 0 0
+/profile_city.php 9 133645 5 5
+/admin/setadminpassword.php 6 45222 0 1
+/mymembership.php 1 28983 0 0
+/delmyprofile_submit.php 1 94 0 0
+/admin/approve_photo1.php 7 68997 1 1
+/kwsearch_results.php 1 15333 0 0
+/admin/noresults.php 16 102600 0 0
+/go_payment.php 7 216371 0 0
+/express_sent_pendinglist.php 1 29432 0 0
+/viewphoto.php 2 6194 0 0
+/ei_success_confirm.php 1 28835 0 0
+/registration3.php 10 708900 0 6
+/paymentoptions.php 39 1023820 4 8
+/viewprofileMAT266.htm 12 686673 2 1
+/viewprofileMAT269.htm 1 57746 0 0
+/photoprocess_ajax.php 15 546509 4 6
+/admin/sales_reports.php 3 41934 0 0
+/id_search.php 1 14071 0 0
+/sitemap.php 3 42606 1 2
+/admin/groupmail_compose.php 2 15988 0 0
+/addphoto.php 5 159200 0 0
+/admin/remove_Inactive_mem.php 1 9145 0 0
+/register_submit1.php 6 575 2 0
+/viewprofileMAT268.htm 2 114430 0 0
+/photoupload.php 8 237290 0 0
+/address.php 2 2240 0 0
+/admin/remove_paid_mem.php 2 21776 0 0
+/admin/rte/palette.htm 2 3841 0 0
+/viewprofileMAT259.htm 1 56763 1 1
+/admin/approve_paid_to_featured.php 3 44511 0 0
+/admin/inactive_reports.php 7 53583 0 0
+/delmyprofile_confirm.php 1 30201 0 0
+/viewprofileMAT261.htm 1 57607 0 0
+/myprofile.php 5 221930 0 0
+/contactus.php 19 325252 2 1
+/modify_hob.php 1 35836 0 0
+/admin/siteconfig.php 10 116673 0 0
+/deletephoto.php 1 60 0 0
+/admin/ 4 64369 2 1
+/myint.php 2 60310 0 0
+/successstory.php 20 270319 1 1
+/registration2.php 11 883108 0 0
+/mymatri.php 23 841350 1 2
+/referafriend.php 3 48966 2 1
+/nomatch.php 1 29353 0 0
+/admin/approve_active_to_paid.php 7 83048 0 0
+/modifyprofile.php 3 122047 0 0
+/admin/approve_ss.php 4 34269 0 0
+/myorders.php 1 29166 0 0
+/terms_con.php 3 71538 0 0
+/mymatches.php 1 28834 0 0
+/admin/remove_Active_mem.php 2 21802 0 0
+/forgotpassword.php 3 52602 2 3
+/advsearch_results.php 3 45353 0 0
+/express_int_send_submit.php 2 56175 0 0
+/membership.php 26 779970 3 4
+/admin/adminpass_submit.php 4 23206 1 1
+/admin/dbchk.php 2 12767 0 0
+/register_confirm.php 6 164095 0 1
+/admin/renewals.php 7 45507 0 0
+/admin/rte/blank.htm 2 618 0 0
+/profile_religion.php 15 427477 7 5
+/profile_edu.php 10 237766 7 9
+/delmyprofile.php 1 29661 0 0
+/admin/approve_horos.php 1 8688 0 0
+/more_recent_profiles.php 6 99952 3 2
+/mymessage.php 2 60030 0 0
+/simplesearch.php 13 403318 1 1
+/shareexperience.php 5 92009 1 1
+/admin/invoice.php 1 4194 0 0
+/authenticate.php 11 57318 0 0
+/admin/mem_reports.php 3 26895 0 1
+/admin/viewphoto1.php 1 2403 0 0
+/privacy.php 3 51190 1 2
+/admin/approve_paid_form_confirm.php 3 12437 0 0
+/admin/approve_paid_form_confirm_submit.php 3 6585 0 0
+/admin/setcontacts.php 4 25952 0 0
+/admin/admin-edit-plans.php 2 17544 0 0
+/adv_search.php 3 140586 0 0
+/edit_par.php 1 93 0 0
+/photouploadconfirm.php 4 116388 0 0
+/admin/paid_reports.php 8 92043 0 0
+/memprofile.php 1 42690 0 0
+/viewprofileMAT265.htm 4 243245 1 1
+/admin/approvals.php 7 65886 0 0
+/admin/viewprofile.php 41 2024656 0 0
+/admin/approve_photo_confirm.php 2 10812 0 0
+/oppositegender_express_int_warn.php 1 29055 0 0
+/admin/Approve_photo1_submit.php 2 144 0 0
+/admin/approve_paid_form.php 9 42107 0 0
+/admin/approve_inactive_to_active.php 25 221348 0 0
+/logoutconfirm.php 9 146719 0 2
+/express_int_form.php 2 64874 0 0
+/admin/others.php 2 15868 0 0
+/profile_cast.php 8 126973 5 5
+/viewprofileMAT260.htm 2 114100 2 0
+/admin/siteconfig_update.php 4 26517 0 0
+/modify_par.php 1 48902 0 0
+/admin/approve_inactive_to_active_submit.php 6 39207 0 0
+/delmyprofile_confirm_msg.php 1 29252 0 0
+/verificationimage.php 16 21887 0 1
+END_SIDER

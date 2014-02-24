@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule viewprofile(.*)\.htm$ viewprofile.php?id=$1
+
+
