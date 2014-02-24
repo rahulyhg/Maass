@@ -1,0 +1,21 @@
+me: maassmatrimony.com
+
+HOST: maassmatrimony.com
+
+USER: maassmatrimony
+
+New pass: He78sk7.W
+
+
+MYSQL DETAIL:
+
+DB_NAME: C278619_maassmatG
+
+DB_USER: C278619_maasReK
+
+New pass: Hw.r78Hsl.
+
+
+MYSQL LOGIN LINK: https://mysql917.opentransfer.com/phpMyAdmin/index.php
+
+LOCALHOST NAME: mysql917.ixwebhosting.com (98.130.0.126)
